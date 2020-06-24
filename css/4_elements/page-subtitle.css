@@ -1,0 +1,12 @@
+.page-subtitle {
+    color: var(--text-color);
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 605px) {
+    .page-subtitle {
+        font-size: 1.6em;
+        margin-left: 10px;
+    }
+}

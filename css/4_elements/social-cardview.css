@@ -1,0 +1,41 @@
+.social-cardview {
+    background-color: var(--card-bg);
+    height: 140px;
+    width: 21%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 25px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.social-cardview > p:first-child {
+    width: 100%;
+    line-height: 24px;
+    background-position: right;
+}
+
+.social-cardview > p:last-child {
+    margin-left: auto;
+    padding-left: 24px;
+    line-height: 24px;
+}
+
+.social-cardview > p:nth-of-type(2) {
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+@media (max-width: 1295px) {
+    .social-cardview {
+        width: 40%;
+    }
+}
+
+@media (max-width: 605px) {
+    .social-cardview {
+        width: 95%;
+    }
+}

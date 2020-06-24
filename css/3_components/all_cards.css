@@ -1,0 +1,10 @@
+.all_cards {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1295px) {
+    .all_cards {
+        width: 90%;
+    }
+}

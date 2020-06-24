@@ -1,0 +1,11 @@
+.page-title {
+    font-size: 2em;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+@media (max-width: 605px) {
+    .page-title {
+        font-size: 1.6em;
+    }
+}

@@ -1,0 +1,14 @@
+:root {
+    --bg: #fff;
+    --main-bg: #f8f9fe;
+    --card-bg: #f0f3fa;
+    --text-color: #000;
+    --switch-div: #98a0c4;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'Roboto', sans-serif;
+    color: #98a0c4;
+    font-weight: bold;
+}

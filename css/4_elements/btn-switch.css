@@ -1,0 +1,5 @@
+.btn-switch {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+} 
